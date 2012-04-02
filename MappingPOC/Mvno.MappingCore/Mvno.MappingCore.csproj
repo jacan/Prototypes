@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\MappingRepository.cs" />
+    <Compile Include="Configuration\AutoMapperRegistry.cs" />
     <Compile Include="Extensions\AutomapEntityMapper.cs" />
     <Compile Include="Extensions\IEntityMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
