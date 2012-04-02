@@ -4,6 +4,7 @@ using StructureMap;
 using MappingPOC.Services;
 using Mvno.MappingCore.Extensions;
 using MappingPOC.Domain;
+using Mvno.MappingCore.Configuration;
 
 namespace MappingPOC
 {
