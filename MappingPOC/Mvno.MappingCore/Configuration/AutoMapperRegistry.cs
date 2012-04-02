@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using AutoMapper;
-using StructureMap;
-using StructureMap.Configuration.DSL;
 using AutoMapper.Mappers;
+using StructureMap.Configuration.DSL;
 
-namespace Mvno.MappingCore.Extensions
+namespace Mvno.MappingCore.Configuration
 {
 	public class AutoMapperRegistry : Registry
 	{
@@ -28,7 +24,6 @@ namespace Mvno.MappingCore.Extensions
 				.Use(x => x.GetInstance<TypeMapFactory>());
 
 			For<IMappingEngine>().Use(Mapper.Engine);
-				//.Use(x => x.GetInstance<MappingEngine>());
 
 			Scan(x =>
 				x.TheCallingAssembly()
