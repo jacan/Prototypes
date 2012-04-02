@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-namespace Mvno.MappingCore.Extensions
+﻿namespace Mvno.MappingCore.Extensions
 {
 	public interface IEntityMapper
 	{

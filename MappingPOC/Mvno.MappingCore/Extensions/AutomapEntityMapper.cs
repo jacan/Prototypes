@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AutoMapper;
-using StructureMap;
+﻿using AutoMapper;
 
 namespace Mvno.MappingCore.Extensions
 {
